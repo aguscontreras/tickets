@@ -1,0 +1,36 @@
+.b-header {
+    background-color: $clr-gris-o;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.b-account-menu-container {
+    text-align: right;
+    margin: 0;
+    color: $clr-blanco;
+}
+
+.b-account-menu {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+
+    &__e-text {
+        margin-right: 5px;
+
+    }
+}
+
+.b-logo-container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+
+    &__e-logo {
+        height: 100%;
+        max-height: 60px;
+    }
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Sistema de tickets</title>
+</head>
+
+<body class="b-body">
+    <header class="b-header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <p class="b-account-menu-container">
+                            <a href="#" class="b-account-menu">
+                                <span class="b-account-menu__e-text">
+                                    Mi cuenta
+                                </span>
+                                <span class="material-icons b-account-menu__e-icon">
+                                    expand_more
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="b-logo-container">
+                        <img src="" alt="logo" class="b-logo-container__e-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="d-md-none">
+        <div class="container-fluid">
+            <div class="row b-nav-mobile">
+                <div class="col">
+                    <div class="b-nav-mobile-header">
+                        <span class="b-nav-mobile-header__e-text">
+                            Tickets
+                        </span>
+                        <span class="material-icons b-nav-mobile-header__e-icon">
+                            menu
+                        </span>
+                    </div>
+                    <div class="b-nav-mobile-container">
+                        <ul class="b-nav-mobile-list">
+                            <li class="b-nav-mobile-list__e-nav-item">
+                                <a href="#" class="b-nav-mobile-list__e-nav-link">Tickets</a>
+                            </li>
+                            <li class="b-nav-mobile-list__e-nav-item">
+                                <a href="#" class="b-nav-mobile-list__e-nav-link">Solicitudes</a>
+                            </li>
+                            <li class="b-nav-mobile-list__e-nav-item">
+                                <a href="#" class="b-nav-mobile-list__e-nav-link">Agentes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="b-nav d-none d-md-block">
+        <div class="container">
+            <div class="row b-nav">
+                <div class="col">
+                    <div class="b-nav-container">
+                        <ul class="b-nav-list">
+                            <li class="b-nav-list__e-nav-item">
+                                <a href="#" class="b-nav-list__e-nav-link b-nav-list__e-nav-link--active">Tickets</a>
+                            </li>
+                            <li class="b-nav-list__e-nav-item">
+                                <a href="#" class="b-nav-list__e-nav-link">Solicitudes</a>
+                            </li>
+                            <li class="b-nav-list__e-nav-item">
+                                <a href="#" class="b-nav-list__e-nav-link">Agentes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section class="b-section">
+                <div class="row">
+                    <div class="col">
+                        <div class="b-new-container">
+                            <a href="#" class="b-new-link">
+                                <img src="img/icons/add-24px.svg" class="b-new-link__e-icon">
+                                <span class="b-new-link__e-text">Crear nuevo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="b-section">
+                <h3 class="b-section-title">
+                    Tickets por estado
+                </h3>
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="b-button b-button--size-big">
+                            Iniciado
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="b-button b-button--size-big">
+                            En proceso
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="b-button b-button--size-big">
+                            En pausa
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="b-button b-button--size-big">
+                            Implementado
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="b-button b-button--size-big">
+                            Cerrado
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="b-section">
+                <h3 class="b-section-title b-section-title--with-options">
+                    Tickets totales
+                </h3>
+                <div class="b-table-alter-container">
+                    <button class="b-button-table">
+                        <img src="img/icons/filter_list-24px.svg" class="b-button-table__e-button-icon">
+                        <span class="b-button-table__e-button-text">Filtrar</span>
+                    </button>
+                    <button class="b-button-table">
+                        <img src="img/icons/sort-24px.svg" class="b-button-table__e-button-icon">
+                        <span class="b-button-table__e-button-text">Ordenar</span>
+                    </button>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <table class="b-table">
+                            <thead class="b-table__e-thead">
+                                <tr class="b-table__e-tr">
+                                    <th class="b-table__e-th">ID #</th>
+                                    <th class="b-table__e-th">Fecha</th>
+                                    <th class="b-table__e-th">Estado</th>
+                                    <th class="b-table__e-th">Cuenta</th>
+                                    <th class="b-table__e-th">Supervisor</th>
+                                    <th class="b-table__e-th">Técnico</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="b-table__e-tr">
+                                    <td class="b-table__e-td">12869</td>
+                                    <td class="b-table__e-td">24-05-2020</td>
+                                    <td class="b-table__e-td">Iniciado</td>
+                                    <td class="b-table__e-td">Hospital Ciudad de Córdoba</td>
+                                    <td class="b-table__e-td">Jerónimo Martín Escobar</td>
+                                    <td class="b-table__e-td">Fabricio Cáceres</td>
+                                </tr>
+                                <tr class="b-table__e-tr">
+                                    <td class="b-table__e-td">12869</td>
+                                    <td class="b-table__e-td">24-05-2020</td>
+                                    <td class="b-table__e-td">Iniciado</td>
+                                    <td class="b-table__e-td">Hospital Ciudad de Córdoba</td>
+                                    <td class="b-table__e-td">Jerónimo Martín Escobar</td>
+                                    <td class="b-table__e-td">Fabricio Cáceres</td>
+                                </tr>
+                                <tr class="b-table__e-tr">
+                                    <td class="b-table__e-td">12869</td>
+                                    <td class="b-table__e-td">24-05-2020</td>
+                                    <td class="b-table__e-td">Iniciado</td>
+                                    <td class="b-table__e-td">Hospital Ciudad de Córdoba</td>
+                                    <td class="b-table__e-td">Jerónimo Martín Escobar</td>
+                                    <td class="b-table__e-td">Fabricio Cáceres</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="b-table-utils">
+                            <p class="b-table-info">
+                                Mostrando 1 - 3 de 3 tickets
+                            </p>
+                            <div class="b-table-paginator">
+                                <a href="#" class="b-table-paginator__e-item">
+                                    <img src="img/icons/first_page-24px.svg" class="b-table-paginator__e-icon">
+                                </a>
+                                <a href="#" class="b-table-paginator__e-item">
+                                    <img src="img/icons/chevron_left-24px.svg" class="b-table-paginator__e-icon">
+                                </a>
+                                <!-- inicio nros -->
+                                <a href="#" class="b-table-paginator__e-number">
+                                    1
+                                </a>
+                                <a href="#" class="b-table-paginator__e-number">
+                                    2
+                                </a>
+                                <!-- fin nros -->
+                                <a href="#" class="b-table-paginator__e-item">
+                                    <img src="img/icons/chevron_right-24px.svg" class="b-table-paginator__e-icon">
+                                </a>
+                                <a href="#" class="b-table-paginator__e-item">
+                                    <img src="img/icons/last_page-24px.svg" class="b-table-paginator__e-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- .container -->
+
+</body>
+
+</html>

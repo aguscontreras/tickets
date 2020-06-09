@@ -1,0 +1,17 @@
+// Colores
+@import 'colors';
+
+// Mixins
+@import 'mixins';
+
+//Fuentes
+@include font-face;
+
+@import 'header';
+@import 'nav';
+
+.b-body {
+    font-family: 'Lato';
+    width: 100%;
+    background-color: $clr-fondo;
+}
