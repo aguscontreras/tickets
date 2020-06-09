@@ -8,6 +8,8 @@
     text-align: right;
     margin: 0;
     color: $clr-blanco;
+    position: relative;
+    float: right;
 }
 
 .b-account-menu {
@@ -21,6 +23,43 @@
     &__e-text {
         margin-right: 5px;
 
+    }
+
+    &__e-icon--active {
+        @include prefix(transform, rotate(180deg), webkit moz ms);
+    }
+}
+
+.b-account-menu-list-container {
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+}
+
+.b-account-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &__e-link {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: $clr-negro;
+        background-color: $clr-blanco;
+
+        &:hover {
+            background-color: $clr-primario-t;
+        }
+    }
+
+    &__e-icon {
+        margin-left: 10px;
     }
 }
 

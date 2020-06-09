@@ -1,5 +1,6 @@
 .b-body {
     font-family: 'Lato';
+    color: $clr-negro;
     width: 100%;
     background-color: $clr-fondo;
     padding-bottom: 60px;
@@ -22,6 +23,7 @@
 .b-section-options-container {
     display: block;
     margin-bottom: 30px;
+    position: relative;
 }
 
 @media (min-width: $mq-tablet) {

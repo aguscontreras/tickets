@@ -91,5 +91,14 @@
         width: 32px;
         text-align: center;
         line-height: 24px;
+
+        &:hover {
+            color: $clr-primario;
+            border-color: $clr-primario;
+        }
+    }
+
+    &__e-link--active {
+        font-weight: 700;
     }
 }
