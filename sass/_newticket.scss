@@ -1,0 +1,22 @@
+.b-new-container {
+    background-color: #fff;
+}
+
+.b-new-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0;
+    text-decoration: none;
+    font-size: 28px;
+    color: $clr-primario;
+    border: 1px solid $clr-primario;
+    background-color: $clr-primario-t;
+
+    &__e-icon {
+        font-size: 40px;
+        margin-right: 5px;
+    }
+}
+

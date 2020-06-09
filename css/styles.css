@@ -118,10 +118,139 @@
   border-bottom: 3px solid #7971EA;
 }
 
+.b-new-container {
+  background-color: #fff;
+}
+
+.b-new-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 0;
+  text-decoration: none;
+  font-size: 28px;
+  color: #7971EA;
+  border: 1px solid #7971EA;
+  background-color: #F1F0FC;
+}
+.b-new-link__e-icon {
+  font-size: 40px;
+  margin-right: 5px;
+}
+
+.b-state-sel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  color: #222831;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid #CED2D9;
+  margin-bottom: 15px;
+}
+.b-state-sel__e-number {
+  font-weight: 900;
+}
+
+.b-state-sel:hover {
+  border: 1px solid #7971EA;
+  box-shadow: 0 2px 6px 0 rgba(121, 113, 234, 0.2);
+}
+
+.b-state-sel:hover {
+  border: 1px solid #7971EA;
+  box-shadow: 0 2px 6px 0 rgba(121, 113, 234, 0.2);
+  color: #7971EA;
+}
+
+.b-state-sel:active {
+  border: 1px solid #7971EA;
+  color: #7971EA;
+  font-weight: 700;
+}
+
+.b-state-sel--active {
+  background-color: #7971EA;
+  color: #fff;
+  border: 1px solid #7971EA;
+}
+
+.b-state-sel--active:hover {
+  color: #fff;
+  box-shadow: 0 2px 6px 0 rgba(121, 113, 234, 0.2);
+}
+
+@media (min-width: 992px) {
+  .b-state-sel {
+    display: block;
+    text-align: center;
+    padding: 20px 30px;
+    margin-bottom: 0;
+  }
+  .b-state-sel__e-text {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .b-state-sel__e-number {
+    display: block;
+  }
+}
+.b-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.b-table {
+  background-color: #fff;
+  border: 1px solid #CED2D9;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+.b-table__e-thead {
+  color: #687180;
+  font-weight: 400;
+}
+.b-table__e-tr {
+  border-bottom: 1px solid #CED2D9;
+}
+.b-table__e-th {
+  padding: 15px;
+  text-align: left;
+}
+.b-table__e-td {
+  padding: 15px;
+}
+.b-table__e-th--small {
+  min-width: 5rem;
+}
+.b-table__e-th--medium {
+  min-width: 8rem;
+}
+.b-table__e-th--large {
+  min-width: 12rem;
+}
+
 .b-body {
   font-family: "Lato";
   width: 100%;
   background-color: #F8F9FC;
+}
+
+.b-section {
+  margin-top: 60px;
+}
+
+.b-section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
