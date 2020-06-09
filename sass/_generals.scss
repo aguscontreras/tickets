@@ -1,0 +1,43 @@
+.b-body {
+    font-family: 'Lato';
+    width: 100%;
+    background-color: $clr-fondo;
+    padding-bottom: 60px;
+}
+
+.b-section {
+    margin-top: 60px;
+}
+
+.b-section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.b-section-title--with-options {
+    display: block;
+}
+
+.b-section-options-container {
+    display: block;
+    margin-bottom: 30px;
+}
+
+@media (min-width: $mq-tablet) {
+
+    .b-section-title-container--with-options {
+        display: flex;
+        justify-content: space-between;
+        align-items: initial;
+    }
+
+    .b-section-title--with-options {
+        display: inline-block;
+    }
+
+    .b-section-options-container {
+        display: inline-flex;
+        text-align: right;
+    }
+}

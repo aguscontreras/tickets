@@ -4,27 +4,14 @@
 // Mixins
 @import 'mixins';
 
-//Fuentes
+// Fuentes
 @include font-face;
 
+// Secciones
+@import 'generals';
 @import 'header';
 @import 'nav';
 @import 'newticket';
 @import 'stateselector';
 @import 'table';
-
-.b-body {
-    font-family: 'Lato';
-    width: 100%;
-    background-color: $clr-fondo;
-}
-
-.b-section {
-    margin-top: 60px;
-}
-
-.b-section-title {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
+@import 'buttons';

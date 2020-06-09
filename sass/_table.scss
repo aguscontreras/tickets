@@ -8,18 +8,25 @@
     border: 1px solid $clr-gris-c;
     border-collapse: collapse;
     width: 100%;
-    font-size: 14px;
     overflow: auto;
     padding: 0;
     margin: 0;
 
     &__e-thead {
         color: $clr-gris-m;
-        font-weight: 400;
+        font-weight: 700;
     }
 
     &__e-tr {
         border-bottom: 1px solid $clr-gris-c;
+    }
+
+    &__e-tr:hover {
+        background-color: $clr-primario-t;
+    }
+
+    &__e-tr--no-hover-effect:hover {
+        background-color: $clr-blanco;
     }
 
     &__e-th {
@@ -41,5 +48,48 @@
 
     &__e-th--large {
         min-width: 12rem;
+    }
+
+    &__e-bottom-container {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    &__e-info {
+        font-size: 14px;
+        color: $clr-gris-m;
+        margin: 0;
+        margin-bottom: 15px;;
+    }
+}
+
+@media (min-width: $mq-tablet) {
+    .b-table__e-bottom-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.b-table-paginator {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__e-item {
+        float: left;
+    }
+
+    &__e-link {
+        padding: 4px;
+        display: inline-block;
+        background-color: $clr-blanco;
+        border: 1px solid $clr-gris-c;
+        text-decoration: none;
+        color: $clr-negro;
+        height: 32px;
+        width: 32px;
+        text-align: center;
+        line-height: 24px;
     }
 }

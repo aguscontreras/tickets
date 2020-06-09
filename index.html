@@ -164,25 +164,31 @@
             </section>
 
             <section class="b-section">
-                <h3 class="b-section-title b-section-title--with-options">
-                    Tickets totales
-                </h3>
-                <div class="b-table-alter-container">
-                    <button class="b-button-table">
-                        <img src="img/icons/filter_list-24px.svg" class="b-button-table__e-button-icon">
-                        <span class="b-button-table__e-button-text">Filtrar</span>
-                    </button>
-                    <button class="b-button-table">
-                        <img src="img/icons/sort-24px.svg" class="b-button-table__e-button-icon">
-                        <span class="b-button-table__e-button-text">Ordenar</span>
-                    </button>
+                <div class="b-section-title-container--with-options">
+                    <h3 class="b-section-title b-section-title--with-options">
+                        Tickets totales
+                    </h3>
+                    <div class="b-section-options-container">
+                        <button class="b-button-table">
+                            <span class="material-icons b-button-table__e-button-icon">
+                                filter_list
+                            </span>
+                            <span class="b-button-table__e-button-text">Filtrar</span>
+                        </button>
+                        <button class="b-button-table">
+                            <span class="material-icons b-button-table__e-button-icon">
+                                sort
+                            </span>
+                            <span class="b-button-table__e-button-text">Ordenar</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="b-table-container">
                             <table class="b-table">
                                 <thead class="b-table__e-thead">
-                                    <tr class="b-table__e-tr">
+                                    <tr class="b-table__e-tr b-table__e-tr--no-hover-effect">
                                         <th class="b-table__e-th b-table__e-th--small">ID #</th>
                                         <th class="b-table__e-th b-table__e-th--medium">Fecha</th>
                                         <th class="b-table__e-th b-table__e-th--medium">Estado</th>
@@ -191,7 +197,7 @@
                                         <th class="b-table__e-th b-table__e-th--large">Técnico</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="b-table__e-tbody">
                                     <tr class="b-table__e-tr">
                                         <td class="b-table__e-td">12869</td>
                                         <td class="b-table__e-td">24-05-2020</td>
@@ -219,37 +225,68 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="b-table-utils">
-                            <p class="b-table-info">
+                        <div class="b-table__e-bottom-container">
+                            <p class="b-table__e-info">
                                 Mostrando 1 - 3 de 3 tickets
                             </p>
-                            <div class="b-table-paginator">
-                                <a href="#" class="b-table-paginator__e-item">
-                                    <img src="img/icons/first_page-24px.svg" class="b-table-paginator__e-icon">
-                                </a>
-                                <a href="#" class="b-table-paginator__e-item">
-                                    <img src="img/icons/chevron_left-24px.svg" class="b-table-paginator__e-icon">
-                                </a>
+                            <ul class="b-table-paginator">
+                                <li class="b-table-paginator__e-item">
+                                    <a href="#" class="b-table-paginator__e-link">
+                                        <span class="material-icons b-table-paginator__e-icon">
+                                            first_page
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="b-table-paginator__e-item">
+                                    <a href="#" class="b-table-paginator__e-link">
+                                        <span class="material-icons b-table-paginator__e-icon">
+                                            chevron_left
+                                        </span>
+                                    </a>
+                                </li>
+
                                 <!-- inicio nros -->
-                                <a href="#" class="b-table-paginator__e-number">
-                                    1
-                                </a>
-                                <a href="#" class="b-table-paginator__e-number">
-                                    2
-                                </a>
+
+                                <li class="b-table-paginator__e-item">
+                                    <a href="#" class="b-table-paginator__e-link">
+                                        <span class="b-table-paginator__e-number">
+                                            1
+                                        </span>
+                                    </a>
+                                </li class="b-table-paginator__e-item">
+
+                                <li class="b-table-paginator__e-item">
+                                    <a href="#" class="b-table-paginator__e-link">
+                                        <span class="b-table-paginator__e-number">
+                                            2
+                                        </span>
+                                    </a>
+                                </li>
+
                                 <!-- fin nros -->
-                                <a href="#" class="b-table-paginator__e-item">
-                                    <img src="img/icons/chevron_right-24px.svg" class="b-table-paginator__e-icon">
-                                </a>
-                                <a href="#" class="b-table-paginator__e-item">
-                                    <img src="img/icons/last_page-24px.svg" class="b-table-paginator__e-icon">
-                                </a>
-                            </div>
+
+                                <li class="b-table-paginator__e-item">
+                                    <a href="#" class="b-table-paginator__e-link">
+                                        <span class="material-icons b-table-paginator__e-icon">
+                                            chevron_right
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="b-table-paginator__e-item">
+                                    <a href="#" class="b-table-paginator__e-link">
+                                        <span class="material-icons b-table-paginator__e-icon">
+                                            last_page
+                                        </span>
+                                    </a>
+                                </li>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
+    </div>
+    </section>
+    </main>
     </div>
     <!-- .container -->
 
