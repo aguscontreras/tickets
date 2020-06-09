@@ -21,18 +21,12 @@
 }
 
 .b-nav-mobile-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    &__e-nav-item {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
+    @include nav-list;
 
     &__e-nav-link {
-        text-decoration: none;
+        @include nav-link;
         color: inherit;
+        width: 100%;
     }
 }
 
@@ -41,15 +35,13 @@
 }
 
 .b-nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    @include nav-list;
     display: flex;
 
     &__e-nav-link {
-        display: inline-block;
-        padding: 15px;
-        text-decoration: none;
+        @include nav-link;
+        padding-left: 15px;
+        padding-right: 15px;
         color: $clr-negro;
         background-color: $clr-blanco;
     }

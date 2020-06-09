@@ -81,13 +81,13 @@
   padding: 0;
   margin: 0;
 }
-.b-nav-mobile-list__e-nav-item {
+.b-nav-mobile-list__e-nav-link {
+  display: inline-block;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-.b-nav-mobile-list__e-nav-link {
   text-decoration: none;
   color: inherit;
+  width: 100%;
 }
 
 .b-nav {
@@ -102,8 +102,11 @@
 }
 .b-nav-list__e-nav-link {
   display: inline-block;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #222831;
   background-color: #fff;
 }
