@@ -1,11 +1,6 @@
-// Layout
+/* VARIABLES Y MIXINS */
 
-// General
-@import 'layout/general';
-
-
-
-// Colores
+// Variables
 @import 'colors';
 
 // Mixins
@@ -14,7 +9,13 @@
 // Fuentes
 @include font-face;
 
-// Secciones
+/* SECCIONES */
+
+// LAYOUT
+@import 'layout/general';
+@import 'layout/components';
+
+
 @import 'general';
 @import 'header';
 @import 'nav';
@@ -22,3 +23,7 @@
 @import 'stateselector';
 @import 'table';
 @import 'buttons';
+
+// STYLE
+@import 'style/general';
+@import 'style/components';

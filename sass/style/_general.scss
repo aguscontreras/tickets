@@ -1,0 +1,24 @@
+// Elementos HTML
+
+.b-body {
+    font-family: 'Lato';
+    color: $clr-negro;
+    background-color: $clr-fondo;
+}
+
+.b-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.b-ul {
+    list-style: none;
+}
+
+
+// Secciones
+
+.b-section-title {
+    font-size: 20px;
+    font-weight: 700;
+}

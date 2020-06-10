@@ -1,3 +1,4 @@
+/* VARIABLES Y MIXINS */
 /* lato-regular - latin */
 @font-face {
   font-family: "Lato";
@@ -22,12 +23,15 @@
   src: local("Lato Black"), local("Lato-Black"), url("../fonts/lato-v16-latin-900.woff2") format("woff2"), url("../fonts/lato-v16-latin-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* SECCIONES */
 .b-body {
-  font-family: "Lato";
-  color: #222831;
   width: 100%;
-  background-color: #F8F9FC;
   padding-bottom: 60px;
+}
+
+.b-ul {
+  padding: 0;
+  margin: 0;
 }
 
 .b-section {
@@ -35,8 +39,6 @@
 }
 
 .b-section-title {
-  font-size: 20px;
-  font-weight: 700;
   margin-bottom: 30px;
 }
 
@@ -64,17 +66,6 @@
   position: relative;
 }
 
-.b-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.b-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .b-dropdown {
   position: absolute;
   left: 0;
@@ -82,10 +73,6 @@
   padding-top: 10px;
 }
 
-.b-dropdown__e-container {
-  background-color: #fff;
-  border: 1px solid #CED2D9;
-}
 .b-dropdown__e-container--is-padding {
   padding: 15px;
 }
@@ -98,23 +85,13 @@
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  text-decoration: none;
-  color: #222831;
-  background-color: #fff;
-}
-.b-dropdown-list__e-link:hover {
-  background-color: #F1F0FC;
 }
 
 .b-form__e-label {
-  color: #687180;
-  font-size: 14px;
   display: block;
   margin-bottom: 5px;
 }
 .b-form__e-input {
-  background-color: #fff;
-  border: 1px solid #CED2D9;
   height: 38px;
   margin-bottom: 15px;
 }
@@ -493,6 +470,47 @@
     align-items: center;
     justify-content: center;
   }
+}
+.b-body {
+  font-family: "Lato";
+  color: #222831;
+  background-color: #F8F9FC;
+}
+
+.b-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.b-ul {
+  list-style: none;
+}
+
+.b-section-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.b-dropdown__e-container {
+  background-color: #fff;
+  border: 1px solid #CED2D9;
+}
+
+.b-dropdown-list__e-link {
+  text-decoration: none;
+  color: #222831;
+  background-color: #fff;
+}
+.b-dropdown-list__e-link:hover {
+  background-color: #F1F0FC;
+}
+
+.b-form__e-label {
+  color: #687180;
+  font-size: 14px;
+}
+.b-form__e-input {
+  border: 1px solid #CED2D9;
 }
 
 /*# sourceMappingURL=styles.css.map */

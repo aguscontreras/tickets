@@ -1,0 +1,50 @@
+// Elementos HTML
+
+.b-body {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.b-ul {
+    padding: 0;
+    margin: 0;
+}
+
+// Secciones
+
+.b-section {
+    margin-top: 60px;
+}
+
+.b-section-title {
+    margin-bottom: 30px;
+}
+
+.b-section-title--is-options {
+    display: block;
+}
+
+.b-section-options-container {
+    display: block;
+    margin-bottom: 30px;
+}
+
+@media (min-width: $mq-tablet) {
+
+    .b-section-title-container--is-options {
+        display: flex;
+        justify-content: space-between;
+        align-items: initial;
+    }
+
+    .b-section-options-container {
+        display: inline-flex;
+    }
+}
+
+
+// Atajos
+
+.b-p-relative  {
+    position: relative;
+}

@@ -1,0 +1,43 @@
+// Componentes
+
+// Dropdown
+
+.b-dropdown {
+    position: absolute;
+    left: 0;
+    z-index: 1100;
+    padding-top: 10px;
+}
+
+.b-dropdown__e-container {
+
+    &--is-padding {
+        padding: 15px;
+    }
+}
+
+.b-dropdown-list {
+
+    &__e-link {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.b-form {
+
+    &__e-label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    &__e-input {
+        height: 38px;
+        margin-bottom: 15px;
+    }
+}

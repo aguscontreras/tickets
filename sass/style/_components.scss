@@ -1,0 +1,33 @@
+// Componentes
+
+// Dropdown
+
+.b-dropdown__e-container {
+    background-color: $clr-blanco;
+    border: 1px solid $clr-gris-c;
+}
+
+.b-dropdown-list {
+
+    &__e-link {
+        text-decoration: none;
+        color: $clr-negro;
+        background-color: $clr-blanco;
+
+        &:hover {
+            background-color: $clr-primario-t;
+        }
+    }
+}
+
+.b-form {
+
+    &__e-label {
+        color: $clr-gris-m;
+        font-size: 14px;
+    }
+
+    &__e-input {
+        border: 1px solid $clr-gris-c;
+    }
+}
