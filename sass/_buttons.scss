@@ -1,4 +1,54 @@
+// Primario y secundario
+
+.b-button {
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 15px;
+}
+
+.b-button--primary {
+    background-color: $clr-primario;
+    border-color: $clr-primario;
+    color: $clr-blanco;
+
+    &:hover {
+        background-color: $clr-primario-m;
+    }
+
+    &:focus {
+        box-shadow: 0 2px 4px 0 $clr-shadow-primario;
+    }
+
+    &:active {
+        background-color: $clr-primario-o;
+    }
+}
+
+.b-button--secondary {
+    background-color: $clr-primario-t;
+    border-color: $clr-primario;
+    color: $clr-primario;
+
+    &:hover {
+        background-color: $clr-primario-t-m;
+    }
+
+    &:focus {
+        box-shadow: 0 2px 4px 0 $clr-shadow-primario;
+    }
+
+    &:active {
+        background-color: $clr-primario-t-o;
+    }
+}
+
 // Botones de tablas
+
+.b-button-table-container {
+    display: inline;
+    position: relative;
+}
 
 .b-button-table {
     padding: 8px;
@@ -19,7 +69,7 @@
     }
 }
 
-@media (min-width: $mq-tablet ) {
+@media (min-width: $mq-tablet) {
 
     .b-button-table {
         margin-right: 0;

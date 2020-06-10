@@ -23,7 +23,6 @@
 .b-section-options-container {
     display: block;
     margin-bottom: 30px;
-    position: relative;
 }
 
 @media (min-width: $mq-tablet) {
@@ -43,3 +42,39 @@
         text-align: right;
     }
 }
+
+.b-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.b-dropdown-container {
+    position: relative;
+}
+
+.b-dropdown {
+    position: absolute;
+    left: 0;
+    z-index: 1100;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+.b-form {
+
+    &__e-label {
+        color: $clr-gris-m;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    &__e-input {
+        background-color: $clr-blanco;
+        border: 1px solid $clr-gris-c;
+        height: 38px;
+        margin-bottom: 15px;
+    }
+}
+
