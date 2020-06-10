@@ -16,7 +16,7 @@
     margin-bottom: 30px;
 }
 
-.b-section-title--with-options {
+.b-section-title--is-options {
     display: block;
 }
 
@@ -27,20 +27,28 @@
 
 @media (min-width: $mq-tablet) {
 
-    .b-section-title-container--with-options {
+    .b-section-title-container--is-options {
         display: flex;
         justify-content: space-between;
         align-items: initial;
     }
 
-    .b-section-title--with-options {
-        display: inline-block;
-    }
-
     .b-section-options-container {
         display: inline-flex;
-        text-align: right;
     }
+}
+
+// Posicionamiento
+
+.b-p-relative  {
+    position: relative;
+}
+
+// Elementos HTML
+
+.b-link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .b-ul {
@@ -49,16 +57,43 @@
     margin: 0;
 }
 
-.b-dropdown-container {
-    position: relative;
-}
+// Dropdown
 
 .b-dropdown {
     position: absolute;
     left: 0;
     z-index: 1100;
     padding-top: 10px;
-    background-color: #fff;
+}
+
+.b-dropdown__e-container {
+    background-color: $clr-blanco;
+    border: 1px solid $clr-gris-c;
+
+    &--is-padding {
+        padding: 15px;
+    }
+}
+
+.b-dropdown-list {
+
+    &__e-link {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: $clr-negro;
+        background-color: $clr-blanco;
+
+        &:hover {
+            background-color: $clr-primario-t;
+        }
+    }
+
 }
 
 .b-form {
@@ -69,7 +104,7 @@
         display: block;
         margin-bottom: 5px;
     }
-    
+
     &__e-input {
         background-color: $clr-blanco;
         border: 1px solid $clr-gris-c;
@@ -77,4 +112,3 @@
         margin-bottom: 15px;
     }
 }
-

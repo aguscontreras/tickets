@@ -186,12 +186,17 @@
             </section>
 
             <section class="b-section">
-                <div class="b-section-title-container--with-options">
+
+                <div class="b-section-title-container--is-options">
+
                     <h3 class="b-section-title b-section-title--with-options">
                         Tickets totales
                     </h3>
+
                     <div class="b-section-options-container">
-                        <div class="b-button-table-container">
+
+                        <div class="b-button-table-container b-p-relative">
+                            
                             <button class="b-button-table">
                                 <span class="material-icons b-button-table__e-button-icon">
                                     filter_list
@@ -200,31 +205,40 @@
                             </button>
 
                             <div class="b-dropdown">
-                                <form action="" class="b-form b-filter-table">
-                                    <div class="b-form-group">
-                                        <label for="table-filter-id" class="b-form__e-label">ID #</label>
-                                        <input type="text" class="b-form__e-input" id="table-filter-id">
-                                    </div>
-                                    <div class="b-form-group">
-                                        <label for="table-filter-date" class="b-form__e-label">Fecha</label>
-                                        <input type="date" class="b-form__e-input" id="table-filter-date">
-                                    </div>
-                                    <div class="b-form-group">
-                                        <label for="table-filter-tecnico" class="b-form__e-label">Técnico</label>
-                                        <select name="" id="table-filter-tecnico" class="b-form__e-input">
-                                            <option value="0">-</option>
-                                            <option value="1">Agustín Contreras</option>
-                                            <option value="2">Fabricio Cáceres</option>
-                                            <option value="">Marcos Tejada</option>
-                                        </select>
-                                    </div>
-                                    <button class="b-button b-button--secondary">
-                                        Limpiar
-                                    </button>
-                                    <button class="b-button b-button--primary">
-                                        Aplicar
-                                    </button>
-                                </form>
+                                <div class="b-dropdown__e-container b-dropdown__e-container--is-padding">
+
+                                    <form action="" class="b-form b-filter-table">
+
+                                        <div class="b-form-group">
+                                            <label for="table-filter-id" class="b-form__e-label">ID #</label>
+                                            <input type="text" class="b-form__e-input" id="table-filter-id">
+                                        </div>
+
+                                        <div class="b-form-group">
+                                            <label for="table-filter-date" class="b-form__e-label">Fecha</label>
+                                            <input type="date" class="b-form__e-input" id="table-filter-date">
+                                        </div>
+
+                                        <div class="b-form-group">
+                                            <label for="table-filter-tecnico" class="b-form__e-label">Técnico</label>
+                                            <select name="" id="table-filter-tecnico" class="b-form__e-input">
+                                                <option value="0">-</option>
+                                                <option value="1">Agustín Contreras</option>
+                                                <option value="2">Fabricio Cáceres</option>
+                                                <option value="">Marcos Tejada</option>
+                                            </select>
+                                        </div>
+
+                                        <button class="b-button b-button--secondary">
+                                            Limpiar
+                                        </button>
+
+                                        <button class="b-button b-button--primary">
+                                            Aplicar
+                                        </button>
+
+                                    </form>
+                                </div>
                             </div>
                         </div>
 
@@ -237,41 +251,43 @@
                             </button>
 
                             <div class="b-dropdown">
-                                <ul class="b-ul b-dropdown-list">
-                                    <li class="b-li b-dropdown-list__e-item">
-                                        <a href="#"
-                                            class="b-link b-dropdown-list__e-link b-dropdown-list__e-link--is-icons">
-                                            <span class="b-dropdown-list__e-text">
-                                                Fecha
-                                            </span>
-                                            <span class="material-icons b-dropdown-list__e-icon">
-                                                arrow_drop_down
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="b-li b-dropdown-list__e-item">
-                                        <a href="#"
-                                            class="b-link b-dropdown-list__e-link b-dropdown-list__e-link--is-icons">
-                                            <span class="b-dropdown-list__e-text">
-                                                Estado
-                                            </span>
-                                            <span class="material-icons b-dropdown-list__e-icon">
-                                                arrow_drop_down
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="b-li b-dropdown-list__e-item">
-                                        <a href="#"
-                                            class="b-link b-dropdown-list__e-link b-dropdown-list__e-link--is-icons">
-                                            <span class="b-dropdown-list__e-text">
-                                                Técnico
-                                            </span>
-                                            <span class="material-icons b-dropdown-list__e-icon">
-                                                arrow_drop_down
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div class="b-dropdown__e-container">
+                                    <ul class="b-ul b-dropdown-list">
+                                        <li class="b-li b-dropdown-list__e-item">
+                                            <a href="#"
+                                                class="b-link b-dropdown-list__e-link b-dropdown-list__e-link--is-icons">
+                                                <span class="b-dropdown-list__e-text">
+                                                    Fecha
+                                                </span>
+                                                <span class="material-icons b-dropdown-list__e-icon">
+                                                    arrow_drop_down
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="b-li b-dropdown-list__e-item">
+                                            <a href="#"
+                                                class="b-link b-dropdown-list__e-link b-dropdown-list__e-link--is-icons">
+                                                <span class="b-dropdown-list__e-text">
+                                                    Estado
+                                                </span>
+                                                <span class="material-icons b-dropdown-list__e-icon">
+                                                    arrow_drop_down
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="b-li b-dropdown-list__e-item">
+                                            <a href="#"
+                                                class="b-link b-dropdown-list__e-link b-dropdown-list__e-link--is-icons">
+                                                <span class="b-dropdown-list__e-text">
+                                                    Técnico
+                                                </span>
+                                                <span class="material-icons b-dropdown-list__e-icon">
+                                                    arrow_drop_down
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

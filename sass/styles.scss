@@ -1,3 +1,10 @@
+// Layout
+
+// General
+@import 'layout/general';
+
+
+
 // Colores
 @import 'colors';
 
@@ -8,7 +15,7 @@
 @include font-face;
 
 // Secciones
-@import 'generals';
+@import 'general';
 @import 'header';
 @import 'nav';
 @import 'newticket';
