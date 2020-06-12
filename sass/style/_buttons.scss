@@ -36,6 +36,25 @@
     }
 }
 
+.b-button--tertiary {
+    border: none;
+    color: $clr-primario;
+
+    &:hover {
+        color: $clr-primario-m;
+        text-decoration: underline;
+    }
+
+    &:focus {
+        color: $clr-primario-o;
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: $clr-primario-o;
+    }
+}
+
 // Botones de tablas
 
 .b-button-table {

@@ -102,6 +102,7 @@
 }
 .b-form__e-input {
   height: 38px;
+  padding: 10px;
   margin-bottom: 15px;
   width: 100%;
 }
@@ -378,6 +379,22 @@
 }
 .b-button--secondary:active {
   background-color: #cfcde3;
+}
+
+.b-button--tertiary {
+  border: none;
+  color: #7971EA;
+}
+.b-button--tertiary:hover {
+  color: #6c65d1;
+  text-decoration: underline;
+}
+.b-button--tertiary:focus {
+  color: #5f59b8;
+  text-decoration: underline;
+}
+.b-button--tertiary:active {
+  color: #5f59b8;
 }
 
 .b-button-table {

@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="b-new-container">
-                            <a href="#" class="b-link b-new-link">
+                            <a href="amticket.php" class="b-link b-new-link">
                                 <span class="material-icons b-new-link__e-icon">
                                     add
                                 </span>
