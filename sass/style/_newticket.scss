@@ -1,0 +1,29 @@
+.b-new-link {
+    font-size: 28px;
+    color: $clr-primario;
+    border-color: $clr-primario;
+    background-color: $clr-primario-t;
+
+    &__e-icon {
+        font-size: 40px;
+    }
+
+    &:focus {
+        box-shadow: 0 4px 8px 0 $clr-shadow-primario;
+    }
+
+    &:hover {
+        font-weight: 700;
+        box-shadow: 0 4px 8px 0 $clr-shadow-primario;
+    }
+
+    &:active {
+        font-weight: 700;
+        box-shadow: 0 4px 8px 0 $clr-shadow-primario;
+    }
+
+    &:active &__e-text {
+        text-decoration: underline;
+    }
+}
+

@@ -1,0 +1,48 @@
+.b-table {
+    background-color: $clr-blanco;
+    border: 1px solid $clr-gris-c;
+    border-collapse: collapse;
+
+    &__e-thead {
+        color: $clr-gris-m;
+        font-weight: 700;
+    }
+
+    &__e-tr {
+        border-bottom: 1px solid $clr-gris-c;
+    }
+
+    &__e-tr:hover {
+        background-color: $clr-primario-t;
+    }
+
+    &__e-tr--no-hover-effect:hover {
+        background-color: $clr-blanco;
+    }
+
+    &__e-info {
+        font-size: 14px;
+        color: $clr-gris-m;
+    }
+}
+
+.b-table-paginator {
+ 
+    list-style: none;
+
+    &__e-link {
+        background-color: $clr-blanco;
+        border: 1px solid $clr-gris-c;
+        text-decoration: none;
+        color: $clr-negro;
+
+        &:hover {
+            color: $clr-primario;
+            border-color: $clr-primario;
+        }
+    }
+
+    &__e-link--active {
+        font-weight: 700;
+    }
+}

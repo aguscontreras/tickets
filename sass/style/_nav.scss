@@ -1,0 +1,32 @@
+.b-nav-mobile {
+    background-color: $clr-blanco;
+    border-bottom-color: $clr-gris-c;
+}
+
+.b-nav-mobile-header {
+    &__e-text {
+        font-size: 20px;
+    }
+    &__e-icon {
+        font-size: 32px;
+    }
+}
+
+.b-nav {
+    background-color: $clr-gris-o;
+}
+
+.b-nav-list {
+    &__e-nav-link {
+        background-color: $clr-blanco;
+    }
+
+    &__e-nav-link:hover {
+        background-color: $clr-primario-t;
+    }
+
+    &__e-nav-link--active {
+        padding-bottom: 12px;  
+        border-bottom-color: $clr-primario;
+    }
+}

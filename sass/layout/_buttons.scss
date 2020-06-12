@@ -1,0 +1,36 @@
+// Primario y secundario
+
+.b-button {
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 15px;
+}
+
+// Botones de tablas
+
+.b-button-table-container {
+    display: inline;
+}
+
+.b-button-table {
+    padding: 8px;
+    border: 1px solid;
+    margin-right: 15px;
+
+    &__e-button-icon {
+        height: 24px;
+        margin-right: 8px;
+    }
+}
+
+@media (min-width: $mq-tablet) {
+
+    .b-button-table {
+        margin-right: 0;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,27 @@
+.b-state-sel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+
+@media (min-width: $mq-tablet) {
+    .b-state-sel {
+        display: block;
+        text-align: center;
+        padding: 20px 30px;
+        margin-bottom: 0;
+
+        &__e-text {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        &__e-number {
+            display: block;
+        }
+    }
+}

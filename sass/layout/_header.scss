@@ -1,0 +1,37 @@
+.b-header {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.b-account-menu-container {
+    text-align: right;
+    margin: 0;
+    position: relative;
+    float: right;
+}
+
+.b-account-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__e-text {
+        margin-right: 5px;
+
+    }
+
+    &__e-icon--active {
+        @include prefix(transform, rotate(180deg), webkit moz ms);
+    }
+}
+
+.b-logo-container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+
+    &__e-logo {
+        height: 100%;
+        max-height: 60px;
+    }
+}

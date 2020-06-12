@@ -11,19 +11,28 @@
 
 /* SECCIONES */
 
+// @import 'header';
+// @import 'nav';
+// @import 'newticket';
+// @import 'stateselector';
+// @import 'table';
+
 // LAYOUT
 @import 'layout/general';
 @import 'layout/components';
-
-
-@import 'general';
-@import 'header';
-@import 'nav';
-@import 'newticket';
-@import 'stateselector';
-@import 'table';
-@import 'buttons';
+@import 'layout/buttons';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/newticket';
+@import 'layout/stateselector';
+@import 'layout/table';
 
 // STYLE
 @import 'style/general';
 @import 'style/components';
+@import 'style/buttons';
+@import 'style/header';
+@import 'style/nav';
+@import 'style/newticket';
+@import 'style/stateselector';
+@import 'style/table';

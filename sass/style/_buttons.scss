@@ -1,0 +1,51 @@
+// Primario y secundario
+
+.b-button--primary {
+    background-color: $clr-primario;
+    border: 1px solid $clr-primario;
+    color: $clr-blanco;
+
+    &:hover {
+        background-color: $clr-primario-m;
+    }
+
+    &:focus {
+        box-shadow: 0 2px 4px 0 $clr-shadow-primario;
+    }
+
+    &:active {
+        background-color: $clr-primario-o;
+    }
+}
+
+.b-button--secondary {
+    background-color: $clr-primario-t;
+    border: 1px solid $clr-primario;
+    color: $clr-primario;
+
+    &:hover {
+        background-color: $clr-primario-t-m;
+    }
+
+    &:focus {
+        box-shadow: 0 2px 4px 0 $clr-shadow-primario;
+    }
+
+    &:active {
+        background-color: $clr-primario-t-o;
+    }
+}
+
+// Botones de tablas
+
+.b-button-table {
+    background-color: $clr-blanco;
+    border: 1px solid $clr-gris-c;
+
+    &:hover {
+        border: 1px solid $clr-primario;
+        box-shadow: 0 2px 6px 0 $clr-shadow-primario;
+        cursor: pointer;
+        color: $clr-primario;
+    }
+}

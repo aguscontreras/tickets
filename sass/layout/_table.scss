@@ -1,0 +1,68 @@
+.b-table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.b-table {
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+
+    &__e-th {
+        padding: 15px;
+        text-align: left;
+    }
+
+    &__e-td {
+        padding: 15px;
+    }
+
+    &__e-th--small {
+        min-width: 5rem;
+    }
+
+    &__e-th--medium {
+        min-width: 8rem;
+    }
+
+    &__e-th--large {
+        min-width: 12rem;
+    }
+
+    &__e-bottom-container {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    &__e-info {
+        margin: 0;
+        margin-bottom: 15px;;
+    }
+}
+
+@media (min-width: $mq-tablet) {
+    .b-table__e-bottom-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.b-table-paginator {
+    margin: 0;
+    padding: 0;
+
+    &__e-item {
+        float: left;
+    }
+
+    &__e-link {
+        padding: 4px;
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+        text-align: center;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,36 @@
+.b-state-sel {
+    background-color: $clr-blanco;
+    border-color: $clr-gris-c;
+
+    &__e-number {
+        font-weight: 900;
+    }
+
+    &:focus {
+        border: 1px solid $clr-primario;
+        box-shadow: 0 2px 6px 0 $clr-shadow-primario;
+    }
+
+    &:hover {
+        border: 1px solid $clr-primario;
+        box-shadow: 0 2px 6px 0 $clr-shadow-primario;
+        color: $clr-primario;
+    } 
+
+    &:active {
+        border: 1px solid $clr-primario;
+        color: $clr-primario;
+        font-weight: 700;
+    }
+
+    &--active {
+        background-color: $clr-primario;
+        color: $clr-blanco;
+        border: 1px solid $clr-primario;
+    }
+
+    &--active:hover {
+        color: $clr-blanco;
+        box-shadow: 0 2px 6px 0 $clr-shadow-primario;
+    }
+}

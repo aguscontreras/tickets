@@ -1,0 +1,12 @@
+.b-new-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0;
+    border: 1px solid;
+
+    &__e-icon {
+        margin-right: 5px;
+    }
+}
